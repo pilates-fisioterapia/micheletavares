@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michele Tavares - Fisioterapia & Pilates em Paracambi, Rio de Janeiro. Atendimento especializado em reabilitação e exercícios terapêuticos.">
+    <meta name="keywords" content="fisioterapeuta, pilates, Paracambi, Rio de Janeiro, reabilitação, exercícios terapêuticos, Michele Tavares">
+    <meta name="author" content="Michele Tavares">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Michele Tavares - Fisioterapeuta e Professora de Pilates">
+    <meta property="og:description" content="Atendimento especializado em fisioterapia e pilates em Paracambi, RJ">
+    <meta property="og:type" content="website">
+    
+    <title>Michele Tavares - Fisioterapia & Pilates | Paracambi - RJ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Michele Tavares</h1>
+                    <span>Fisioterapia & Pilates</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Cuide da sua saúde com profissionalismo e dedicação</h2>
+                    <p>Atendimento especializado em fisioterapia e pilates em Paracambi/RJ</p>
+                    <a href="#contato" class="btn">Agende sua consulta</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <div class="sobre-grid">
+                    <div class="sobre-imagem">
+                        <img src="img/MicheleTavares.jpg" class="imagem-redonda" alt="Michele Tavares - Fisioterapeuta e Professora de Pilates">
+                    </div>
+                    <div class="sobre-texto">
+                        <p>Sou Michele Tavares, fisioterapeuta e professora de Pilates com vasta experiência em reabilitação e exercícios terapêuticos. Atuo no município de Paracambi, Rio de Janeiro, oferecendo atendimento personalizado e de qualidade.</p>
+                        <br>
+                        <p>Minha missão é ajudar pacientes a recuperarem sua mobilidade, aliviarem dores e melhorarem sua qualidade de vida através de técnicas modernas e comprovadas da fisioterapia e do método Pilates.</p>
+                        <!-- Link direto do CREFITO -->
+                        <div>
+                            <p style="margin: 1rem 0;color: #034d2c;">
+                                CREFITO: 331349-F/Paracambi-RJ - MICHELE DA CONCEIÇÃO APARECIDA TAVARES
+                            </p>
+                            <a href="https://www.crefito2.com.br/spw/consultacadastral/TelaConsultaPublicaCompleta.aspx" target="_blank" class="btn btn-mapa">
+                                <i class="fas fa-shield-alt"></i>
+                                Consultar Crefito
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE SERVIÇOS + AVALIAÇÕES GOOGLE -->
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2>Serviços</h2>
+                
+                <div class="servicos-grid">
+                    <article class="servico-card">
+                        <div class="servico-imagem-container">
+                            <img src="img/Fisioterapia.png" alt="Fisioterapia" class="servico-imagem">
+                        </div>
+                        <div class="servico-conteudo">
+                            <h3>Fisioterapia</h3>
+                            <p>Atendimento especializado em reabilitação musculoesquelética, tratamento de dores crônicas e recuperação pós-cirúrgica.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-imagem-container">
+                            <img src="img/Pilates.png" alt="Pilates Terapêutico" class="servico-imagem">
+                        </div>
+                        <div class="servico-conteudo">
+                            <h3>Pilates Terapêutico</h3>
+                            <p>Combinação do método Pilates com técnicas de fisioterapia para tratamento específico de condições musculoesqueléticas.</p>
+                        </div>
+                    </article>
+                    <article class="servico-card">
+                        <div class="servico-imagem-container">
+                            <img src="img/Avaliação.png" alt="Avaliação Postural" class="servico-imagem">
+                        </div>
+                        <div class="servico-conteudo">
+                            <h3>Avaliação Postural</h3>
+                            <p>Avaliação completa da postura e identificação de desequilíbrios musculares para prescrição de exercícios corretivos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="localizacao-grid">
+                    <div class="mapa-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.002467483425!2d-43.71565792483617!3d-22.61276597946307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x283f1fd7dbb55bff%3A0xcea24bb9c0e3f9c1!2sEspa%C3%A7o%20Integrativo%20Michele%20Tavares%20-%20FISIOTERAPIA%20e%20PILATES%20.%20CREFITO%20%3A%20331349-F!5e1!3m2!1spt-BR!2sbr!4v1762721621065!5m2!1spt-BR!2sbr" 
+                                style="border:0; width: 100%; height: 100%;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="localizacao-info">
+                        <h3>Venha conhecer</h3>
+                        
+                        <div class="info-contato-grid">
+                            <div class="info-contato-imagem">
+                                <img src="img/local_instagram.png" alt="Imagem de contato" class="imagem-contato">
+                            </div>
+                            <div class="info-contato-detalhes">
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <strong>Endereço:</strong>
+                                        <p>RJ-127, 11955 - Barreira<br>Paracambi - RJ, 26600-000</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Horário de Atendimento:</strong>
+                                        <p>Segunda a Sexta: 8h às 19h<br>Sábado: Temporariamente indisponível</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <strong>Telefone:</strong>
+                                        <p><a href="tel:+5521974701741">(21) 97470-1741</a></p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <strong>Email:</strong>
+                                        <p><a href="mailto:micheletavaresilva@gmail.com">micheletavaresilva@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <a href="https://maps.google.com/?q=RJ-127,11955,Barreira,Paracambi,RJ,26600-000" target="_blank" class="btn btn-mapa">
+                                    <i class="fas fa-directions"></i>
+                                    Como Chegar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Michele Tavares</h3>
+                    <p>Fisioterapia & Pilates</p>
+                    <p>Paracambi - Rio de Janeiro</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/fisioterapeuta.micheletavares/" target="_blank" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/people/Michele-Tavares/61554713692828/" target="_blank" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/5521974701741?text=Olá! Gostaria de agendar uma consulta." target="_blank" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Michele Tavares. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
